@@ -1,0 +1,132 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    http://barbarapatten.com
+ Description:  Twenty Twenty Child Theme
+ Author:       Barbara Patten
+ Author URI:   http://barbarapatten.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentychild
+*/
+
+.background-river {
+  background: url("http://localhost:8888/wp-content/uploads/2020/05/takeyouonthejourney.svg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  -webkit-background-position: left bottom;
+  -moz-background-position: left bottom;
+  -o-background-position: left bottom;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-color: #071218; 
+  height: 550px;
+  width: 100%;
+}
+
+.for-the-home-page .post-inner.thin {
+  padding: 0;
+}
+
+.for-the-home-page article {
+  position: relative;
+}
+
+.header-titles .site-title {
+  font-family: 'Parisienne', cursive;
+  font-size: 30px;
+}
+
+div.site-description {
+  font-family: 'Jost', sans-serif;
+}
+
+h6.extra-height {
+  height: 40px;
+}
+
+#audio-container h2  {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  /* background-color: darkblue; */
+  margin-bottom: 5px;
+  margin-top: 0;
+  color: #cdb57b;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 0 -1px 1px #000;
+}
+
+#audio-container h2.first {
+  margin-top: 60px;
+}
+
+#audio-container audio {
+  border-radius: 0;
+  box-sizing: border-box;
+  background-color: #F1F3F4;
+  color: #071218;
+  height: 30px;
+  margin-left: 20px;
+}
+
+section#below-main {
+  position: relative;
+  padding: 0;
+  height: 60px;
+  box-sizing: border-box;
+  background-color:#071218;
+  border-top: 3px solid #cdb57b;
+  border-bottom: 3px solid #cdb57b;
+}
+
+#voice-actor {
+  position: absolute;
+  height: 600px;
+  width: 200px;
+  top:-400px;
+  left:20px;
+ /* background-color: pink; */
+  background: url("http://localhost:8888/wp-content/uploads/2020/05/voiceActor.svg");
+  background-repeat: no-repeat;
+
+}
+
+section#center-audio {
+  width: 80%;
+  margin: 20px auto;
+  display:flex;
+  /* background-color: pink; */
+  height: 500px;
+  padding-left: 150px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#audio-container {
+  width: 100%;
+  /* background-color: lightblue; */
+}
+
+.icon-audio {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-audio i {
+  color: #cdb57b;
+  text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 0 -1px 1px #000;
+}
+
+@media (min-width: 700px) {
+
+  section#below-main {
+    box-sizing: border-box;
+  }
+}
