@@ -26,11 +26,16 @@ get_header();
       </div>
       <div id="accents-languages-container">
         <h2>Accents & Languages</h2>
-        <div class="icon-audio"></div>
+        <div class="icon-audio">
+          <i class="fas fa-globe fa-2x" aria-hidden="true"></i>
+          <audio controls src="http://localhost:8888/wp-content/uploads/2020/05/AccentLanguageCompilation.mp3"></audio>
+        </div>
       </div>
       <div id="narration-explainer">
         <h2>Narration & Explainer</h2>
-        <div class="icon-audio"></div>
+        <div class="icon-audio">
+        <i class="fas fa-medkit fa-2x" aria-hidden="true"></i>
+        </div>
       </div>
     </div>
 	</section>

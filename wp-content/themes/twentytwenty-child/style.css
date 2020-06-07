@@ -25,7 +25,7 @@
   background-position: left bottom;
   background-repeat: no-repeat;
   background-color: #071218; 
-  height: 550px;
+  height: 450px;
   width: 100%;
 }
 
@@ -88,7 +88,7 @@ section#below-main {
   height: 600px;
   width: 200px;
   top:-400px;
-  left:20px;
+  left:30px;
  /* background-color: pink; */
   background: url("http://localhost:8888/wp-content/uploads/2020/05/voiceActor.svg");
   background-repeat: no-repeat;
@@ -97,7 +97,7 @@ section#below-main {
 
 section#center-audio {
   width: 80%;
-  margin: 20px auto;
+  margin: 0 auto;
   display:flex;
   /* background-color: pink; */
   height: 500px;
@@ -107,8 +107,10 @@ section#center-audio {
 }
 
 #audio-container {
-  width: 100%;
-  /* background-color: lightblue; */
+  width: 50%;
+  margin: 0 auto;
+ /* background-color: lightblue; */
+
 }
 
 .icon-audio {
@@ -119,14 +121,54 @@ section#center-audio {
   margin-bottom: 15px;
 }
 
-.icon-audio i {
+.icon-audio i.fas {
   color: #cdb57b;
   text-shadow: 1px 1px 1px #000, -1px -1px 1px #000, 0 -1px 1px #000;
+  width: 35px;
+  text-align: center;
 }
 
-@media (min-width: 700px) {
+li > .icon, .modal-menu a, .footer-menu a, .footer-widgets a, #site-footer .wp-block-button.is-style-outline, .wp-block-pullquote:before, .singular:not(.overlay-header) .entry-header a, .archive-header a, .header-footer-group .color-accent, .header-footer-group .color-accent-hover:hover {
+ color: #851014;
+ }
+
+@media (max-width: 950px) {
 
   section#below-main {
     box-sizing: border-box;
+    /* background-color:pink; */
   }
+
+  #audio-container {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: lightblue; */
+    padding-left: 10%;
+  }
+}
+
+@media (max-width: 760px) {
+
+  section#center-audio {
+    padding-left:20px;
+    width: calc(100% - 200px);
+    /* background-color: limegreen; */
+    margin-right: 0;
+  }
+
+  #voice-actor {
+    position: absolute;
+    height: 400px;
+    width: 200px;
+    top: -350px;
+    left:15px;
+   /* background-color: pink; */
+    background: url("http://localhost:8888/wp-content/uploads/2020/05/voiceActor.svg");
+    background-repeat: no-repeat;
+  }
+
+  #audio-container {
+    padding-left: 0;
+  }
+
 }
